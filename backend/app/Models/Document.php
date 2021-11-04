@@ -1,0 +1,27 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+use App\Models\User;
+
+class Document extends Model
+{
+    use HasFactory;
+    protected $fillable = [
+        'staff_id',
+        '書類名',
+        '内容',
+        'DOCpass',
+        'user_id'
+    ];
+
+    public function user(){
+        return $this->belongsTo(User::class);
+    }
+
+    protected $casts = [
+        'options' => 'array',
+    ];
+}

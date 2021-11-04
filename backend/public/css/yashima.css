@@ -1,0 +1,54 @@
+/* .my-card-body{
+  height: calc( 150vh - (54.9px+47.67px));
+} */
+
+.sidebar{
+    height: calc( 200vh - (54.9px+47.67px));
+  }
+
+.table td{
+    vertical-align: middle;
+
+}
+
+tr.edittable{
+    background-color:gray
+}
+
+.table th{
+    text-align:center;
+    font-weight: normal;
+}
+
+
+.f-container {
+    display: flex;
+    /* text-decoration-color: dodgerblue;
+    text-decoration-style: solid; */
+    justify-content:space-around
+  }
+  /*input#inputAddress1{
+    text-align: left;
+  }
+
+  input{
+    text-align: center;
+  }*/
+
+  .form-control-plaintext{
+     background-color:cyan
+  }
+
+  /* .form-label{
+    color:teal;
+    font-weight:800;
+  } */
+
+  /* .syokuintitle{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+  } */
+
